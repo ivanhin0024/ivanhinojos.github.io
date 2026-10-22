@@ -1,90 +1,99 @@
-<html> 
-    <header> 
-        <h1> Ivan Hinojos</h1>
-        <p>Software Engineer</p>
-        <p>Hello, my name is Ivan Hinojos and currently pursuing my Bachelor's degree in
-            Computer Science at New Mexico State University and graduting Fall 2027. 
-        </p>
-        <nav>
-            <a href="https://github.com/ivanhin0024">GitHub</a>
-            <a href="https://www.linkedin.com/in/ivan-hinojos-cs/">LinkedIn</a>
-            <a href="mailto:ivanhinojos9@gmail.com">Email</a>
-        </nav>
-    </header>
+<!DOCTYPE html>                                   <!-- NEW: tells the browser this is modern HTML -->
+<html lang="en">
+<head>                                            <!-- NEW: info ABOUT the page (not shown on it) -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ivan Hinojos | Software Engineer</title>
+</head>
+<body>                                            <!-- NEW: everything visible goes inside body -->
 
-    <main>
-        <section>
-            <h2>Projects</h2>
+  <header>
+    <h1>Ivan Hinojos</h1>
+    <p>Software Engineer</p>
+    <p>Hello, my name is Ivan Hinojos and I'm currently pursuing my Bachelor's degree in
+      Computer Science at New Mexico State University, graduating Fall 2027.</p>
+    <nav>
+      <a href="https://github.com/ivanhin0024">GitHub</a>
+      <a href="https://www.linkedin.com/in/ivan-hinojos-cs/">LinkedIn</a>
+      <a href="mailto:ivanhinojos9@gmail.com">Email</a>
+    </nav>
+  </header>
 
-            <article>
-                <h3>ZiaMet public weather interface</h3>
-                <p>At my current job, I'm developing a public weather interface that displays a map of all weather
-                    stations accross New Mexico and displays weather information for each station.</p>
-                <p>Built with: HTML, CSS, JavaScript, Flask, CouchDB, Leaflet, Chart.js</p>
-                <p>Link: Currntly offline</p>
-            </article>
+  <main>
+    <section>
+      <h2>Projects</h2>
 
-            <article>
-                <h4>NMCC Field Operations Portal</h4>
-                <p>A private website for my workplace that let's users upload and manage maintence logs and photos for weather 
-                    stations to CouchDB.</p>
-                <p>Built with: HTML, CSS, JavaScript, Flask, CouchDB, Jinja2</p>
-            </article>
-        </section>
+      <article>
+        <h3>ZiaMet Public Weather Interface</h3>
+        <p>At my current job, I'm developing a public weather interface that displays a map of all weather
+          stations across New Mexico and shows weather information for each station.</p>
+        <p>Built with: HTML, CSS, JavaScript, Flask, CouchDB, Leaflet, Chart.js</p>
+      </article>
 
-        <section>
-            <h2>Skills</h2>
-            <ul>
-                <li>Python</li>
-                <li>JavaScript</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Flask</li>
-                <li>Git</li>
-            </ul>
-        </section>
+      <article>
+        <h3>NMCC Field Operations Portal</h3>     <!-- CHANGED: h4 → h3, same level as the other project -->
+        <p>A private website for my workplace that lets users upload and manage maintenance logs and photos
+          for weather stations to CouchDB.</p>
+        <p>Built with: HTML, CSS, JavaScript, Flask, CouchDB, Jinja2</p>
+      </article>
+    </section>
 
-        <section>
-            <h2>Experince</h2>
-            <h3>CodePath Tech Echange</h3>
-            <p>Dec.2025 - May.2026</p>
-            <ul>
-                <li>Algorithms, System Design, and career prep taught by working Software Engineers</li>
-                <li>Building interview-ready skills through algorithm drills + practical system design exercises</li>
-                <li>Practicing real-world engineering thinking by turning ambigous problems into clear 
-                    requirements, design, and trade-offs(latency, scalability, reliability)</li>
-                <li>Learning how to use LLM to write efficient code and documentation in real-world scenarios</li>
-            </ul>
-        </section>
+    <section>
+      <h2>Skills</h2>
+      <ul>
+        <li>Python</li>
+        <li>JavaScript</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Flask</li>
+        <li>Git</li>
+      </ul>
+    </section>
 
-        <section>
-            <h2>Plant and Environment Science NMSU</h2>
-            <p>Sept.2024 - Present</p>
-            <ul>
-                <li>Set up and maintain multiple weather stations accross the state to ensure accurate and consistent data collection</li>
-                <li>Collaborate with a mentor to design and develop an employee website portal from scratch using Flask, CouchDB, HTML, and 
-                    Python.</li>
-                <li>Developed a full stack public weather website using Flask, CouchDB, HTML, CSS, JavaScript, and JSON, integrating real-time 
-                    data from a weather station and present it through dynamic, user-friendly visualizations and interactive maps using Leaflet and Chart.js.</li>
-            </ul>
-        </section>
+    <!-- CHANGED: ONE Experience section. Each job is an <article> inside it, with an <h3> title. -->
+    <section>
+      <h2>Experience</h2>
 
-        <section>
-            <h2>New Mexico Tech Summer REU Internship</h2>
-            <p>May.2024 - Aug.2024</p>
-            <ul>
-                <li>Conducted a project on semi-supervised outlier detection for anomaly detection in Industrial Control Systems</li>
-                <li>Applied semi-supervised outlier detection algorithms to detect anomalies in water SCADA systems using Python
-                    and PyOD toolkit</li>
-                <li>Tested and trained detection models using Sercure Water Treatment (SWaT) dataset</li>
-                <li>Gained experience in Cybersecurity research, wrote a report about my findings, and made a poster explaing my research</li>
-            </ul>
-        </section>
+      <article>
+        <h3>Plant and Environmental Sciences, NMSU</h3>
+        <p>Sept. 2024 – Present</p>
+        <ul>
+          <li>Set up and maintain multiple weather stations across the state to ensure accurate and consistent data collection</li>
+          <li>Collaborate with a mentor to design and develop an employee website portal from scratch using Flask, CouchDB, HTML, and Python</li>
+          <li>Developed a full-stack public weather website using Flask, CouchDB, HTML, CSS, JavaScript, and JSON, integrating real-time
+            data from weather stations and presenting it through interactive maps and charts using Leaflet and Chart.js</li>
+        </ul>
+      </article>
 
-    </main>
+      <article>
+        <h3>CodePath Tech Exchange</h3>
+        <p>Dec. 2025 – May 2026</p>
+        <ul>
+          <li>Algorithms, System Design, and career prep taught by working Software Engineers</li>
+          <li>Building interview-ready skills through algorithm drills and practical system design exercises</li>
+          <li>Practicing real-world engineering thinking by turning ambiguous problems into clear
+            requirements, design, and trade-offs (latency, scalability, reliability)</li>
+          <li>Learning how to use LLMs to write efficient code and documentation in real-world scenarios</li>
+        </ul>
+      </article>
 
-         <footer>
-            <p>(c) 2026 Ivan Hinojos</p>
-        </footer>
+      <article>
+        <h3>Summer REU Internship, New Mexico Tech</h3>
+        <p>May 2024 – Aug. 2024</p>
+        <ul>
+          <li>Conducted a project on semi-supervised outlier detection for anomaly detection in Industrial Control Systems</li>
+          <li>Applied semi-supervised outlier detection algorithms to detect anomalies in water SCADA systems using Python
+            and the PyOD toolkit</li>
+          <li>Trained and tested detection models using the Secure Water Treatment (SWaT) dataset</li>
+          <li>Gained experience in cybersecurity research, wrote a report about my findings, and made a poster explaining my research</li>
+        </ul>
+      </article>
+    </section>
+  </main>
 
+  <footer>
+    <p>&copy; 2026 Ivan Hinojos</p>                 <!-- CHANGED: &copy; shows the © symbol -->
+  </footer>
+
+</body>                                           <!-- NEW: closes body -->
 </html>
