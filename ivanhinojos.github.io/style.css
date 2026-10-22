@@ -1,0 +1,42 @@
+:root {
+
+    --bg: #0b0d14;
+    --text: #c0ced9;
+    --heading: #ffffff; 
+    --accent: #4fd1c5;
+
+}
+
+body {
+    margin: 0; 
+    background-color: var(--bg); 
+    color: var(--text);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.6; 
+}
+
+header, 
+main,
+footer {
+
+    max-height: 800px;
+    margin: 0 auto; 
+    padding: 0 24px;
+
+}
+
+h1,
+h2,
+h3 {
+    color: var(--heading)
+}
+
+a {
+    color: var(--accent);
+    text-decoration: none; 
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
